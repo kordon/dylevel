@@ -33,8 +33,8 @@
   "devDependencies": {
     "mocha-lcov-reporter": "0.0.x",
     "jscoverage": "0.3.x",
-    "coveralls": "2.0.x",
-    "mocha": "1.10.x"
+    "coveralls": "2.3.x",
+    "mocha": "1.13.x"
   },
   "engines": {
     "node": ">=0.8"
