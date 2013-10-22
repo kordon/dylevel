@@ -1,0 +1,42 @@
+{
+  "name": "dylevel",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/kordon/dylevel",
+  "bugs": {
+    "url": "http://github.com/kordon/dylevel/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "licenses": [
+    {
+      "url": "https://raw.github.com/kordon/dylevel/master/license",
+      "type": "MIT"
+    }
+  ],
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "main": "src/dylevel.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kordon/dylevel.git"
+  },
+  "scripts": {
+    "test": "make test test-coveralls"
+  },
+  "dependencies": {
+    "vnhr": "0.1.x",
+    "ase": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha-lcov-reporter": "0.0.x",
+    "jscoverage": "0.3.x",
+    "coveralls": "2.0.x",
+    "mocha": "1.10.x"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
